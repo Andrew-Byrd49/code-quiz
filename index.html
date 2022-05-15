@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Code Quiz</title>
 </head>
 <body>
 
-    <!-- Highscore & timer -->
+    <!-- Highscore btn -->
     <section>
         <div>
-
-        </div>
-        <div>
-
+            <a href="high-score.html">Highscores</a>
         </div>
     </section>
 
-    <!-- Quiz section -->
-    <section>
-        <div>
-            
+    <!-- Quiz & timer -->
+    <section id="wrapper">
+        <div id="currentTime"></div>
+        <div id="questionsDiv">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <ui id="choicesUl"></ui>
+            <button id="startTime">Start Quiz</button>
         </div>
     </section>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
