@@ -16,6 +16,7 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
   }
 
   body h1 {
@@ -25,18 +26,99 @@
 
   body p {
       color: #fff;
+      font-size: 18px;
+      line-height: 1.5rem;
+      padding-bottom: 30px;
   }
 
   #wrapper {
       height: auto;
       width: 45vw;
       position: relative;
-      display: flex;
-      flex-wrap: wrap;
       margin: auto;
       color: #fff;
+      background-color: rgba(32, 32, 32, 0.815);
+      padding: 40px;
+      padding-top: 70px;
+      padding-bottom: 50px;
+      border: solid 3px #222;
+      border-bottom: solid 8px #222;
+      border-radius: 8px;
+  }
+
+  #wrapper input {
+      height: 34px;
+      font-size: 20px;
+      color:rgb(186, 147, 223);
+      background-color: rgba(32, 32, 32, 0.815);
+      border: solid 1px rgb(63, 63, 63);
+      border-radius: 8px;
+      margin-right: 15px;
+      margin-left: 10px;
+      padding-left: 7px;
+  }
+
+  #questionsDiv {
+      font-size: 25px;
+  }
+
+  #questionsDiv h1 {
+      padding-bottom: 30px;
+  }
+
+  #questionsDiv p {
+  }
+
+  #questionsDiv button {
+      padding: 7px;
+      padding-left: 11px;
+      padding-right: 11px;
+      margin-right: 10px;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      background-color: rgb(186, 147, 223);
+      border: solid 2px #222;
+      border-bottom: solid 5px #222;
+      border-radius: 8px;
+  }
+
+  #questionsDiv button:hover {
+      cursor: pointer;
+  }
+
+  #questionsDiv ul {
+      font-size: 22px;
+      padding-top: 20px;
+      line-height: 3rem;
+      cursor: pointer;
+      margin-left: 20px;
+  }
+
+  .high-score a {
+      color: #222;
+      text-decoration: none;
+      background-color: rgb(186, 147, 223);
+      padding: 7px;
+      padding-left: 11px;
+      padding-right: 11px;
+      border: solid 2px #222;
+      border-bottom: solid 5px #222;
+      border-radius: 8px;
   }
 
   #currentTime {
-      background-color: rgba(32, 32, 32, 0.815);
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  #createP {
+      color: rgb(214, 189, 238);
+      font-weight: bold;
+      font-size: 40px;
+  }
+
+  #createH1 {
+      font-size: 40px;
   }
