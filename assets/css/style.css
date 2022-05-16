@@ -17,6 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
+    cursor: url(/assets/images/pointer.png), default;
   }
 
   body h1 {
